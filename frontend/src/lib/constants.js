@@ -1,0 +1,42 @@
+export const MODULES = [
+  {
+    id: 1,
+    title: 'Regularization (규제)',
+    description: 'L1/L2, Dropout, Batch Normalization으로 과적합을 방지하는 기법을 배웁니다.',
+    emoji: '🛡️',
+    isPremium: false,
+    path: '/learn/01',
+  },
+  {
+    id: 2,
+    title: 'Overfitting vs Underfitting',
+    description: '모델 복잡도와 성능의 관계, 적절한 균형을 찾는 방법을 배웁니다.',
+    emoji: '⚖️',
+    isPremium: false,
+    path: '/learn/02',
+  },
+  {
+    id: 3,
+    title: 'Data Augmentation (데이터 증강)',
+    description: '데이터 부족 문제를 해결하는 이미지 증강 기법을 배웁니다.',
+    emoji: '🖼️',
+    isPremium: true,
+    path: '/learn/03',
+  },
+  {
+    id: 4,
+    title: 'Transfer Learning (전이 학습)',
+    description: 'MobileNetV2로 사전 학습된 모델을 활용하는 방법을 배웁니다.',
+    emoji: '🧠',
+    isPremium: true,
+    path: '/learn/04',
+  },
+  {
+    id: 5,
+    title: 'MNIST CNN 실습',
+    description: 'CNN으로 손글씨 인식 모델을 직접 구현하고 학습합니다.',
+    emoji: '✍️',
+    isPremium: true,
+    path: '/learn/05',
+  },
+]
